@@ -115,7 +115,7 @@ public class JavaScriptInterface {
                 Notification notification = new Notification.Builder(context,CHANNEL_ID)
                         .setContentText("You have got something new!")
                         .setContentTitle("File downloaded")
-                        .setContentIntent(pendingIntent)
+                        .setContentIntent(pendingIntent) 
                         .setChannelId(CHANNEL_ID)
                         .setSmallIcon(android.R.drawable.sym_action_chat)
                         .build();
